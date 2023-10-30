@@ -1,0 +1,23 @@
+{
+  "name": "nextjs",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.2",
+    "@teachablemachine/image": "^0.8.4",
+    "@tensorflow/tfjs": "^3.3.0",
+    "clsx": "latest",
+    "next": "^13.3.0",
+    "prop-types": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-webcam": "^5.2.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
